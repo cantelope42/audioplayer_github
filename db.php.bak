@@ -3,17 +3,17 @@
   $db_pass="";
   $db_host="localhost";
   $db="videodemos";
-  $demoSandbox='demo.whitehot.ninja';
+  $demoSandbox='demo.cantelope.org';
   $maxResultsPerPage = 6;
   
   
   $local = false;
   if($local){
-    $baseURL='local.audiocloud.whitehot.ninja';
+    $baseURL='local.audiocloud.cantelope.org';
     $baseAssetsURL = 'http://local.assets.whitehotrobot.com';
   }else{
-    $baseURL='audiocloud.whitehot.ninja';
-    $baseAssetsURL = 'https://assets.whitehot.ninja';
+    $baseURL='audiocloud.cantelope.org';
+    $baseAssetsURL = 'https://assets.cantelope.org';
   }
   
   $baseFullURL= ($local ? 'http://' : 'https://') . $baseURL;
