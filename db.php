@@ -3,17 +3,17 @@
   $db_pass="";
   $db_host="localhost";
   $db="videodemos";
-  $demoSandbox='demo.cantelope.org';
+  $demoSandbox='demo.twilightparadox.com';
   $maxResultsPerPage = 6;
   
   
   $local = false;
   if($local){
-    $baseURL='local.audiocloud.cantelope.org';
+    $baseURL='local.audiocloud.twilightparadox.com';
     $baseAssetsURL = 'http://local.assets.whitehotrobot.com';
   }else{
-    $baseURL='audiocloud.cantelope.org';
-    $baseAssetsURL = 'https://assets.cantelope.org';
+    $baseURL='audiocloud.twilightparadox.com';
+    $baseAssetsURL = 'https://assets.twilightparadox.com';
   }
   
   $baseFullURL= ($local ? 'http://' : 'https://') . $baseURL;
